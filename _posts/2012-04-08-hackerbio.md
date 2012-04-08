@@ -4,11 +4,11 @@ title: hackerb.io
 category: nerd-stuff
 ---
 
-It's been a hacky Easter weekend. Besides finally fixing the backend on <a href="http://angusgreig.com/">Angus's site</a>, closing the doors on <a href="http://brickmedialab.com/">Brick</a> and putting together this blog, I've also had a chance to dust off my little CV generating app, <a href="hackerb.io">hackerb.io</a>.
+It's been a hacky Easter weekend. Besides finally fixing the backend on [Angus's site](http://angusgreig.com), closing the doors on [Brick](http://brickmedialab.com) and putting together this blog, I've also had a chance to dust off my little CV generating app, [hackerb.io](http://hackerb.io).
 
 ![CV example](/images/hbio_cv.png)
 
-Despite hosting <a href="http://hackerb.io">my resume</a> for months, the site hasn't been open to signups before today, so I figured this was the time to blog. Caveat: it is still very <strike>beta</strike> alpha, you can touch it as easy as break it. Please be patient and **<a href="mailto:cantlin@ashrowan.com">mail me</a> when things fall over.**
+Despite hosting [my resume](http://hackerb.io/cantlin.pdf) for months, the site hasn't been open to signups before today, so I figured this was the time to blog. Caveat: it is still very <strike>beta</strike> alpha, you can touch it as easy as break it. Please be patient and **[mail me](mailto:cantlin@ashrowan.com) when things fall over.**
 
 ## I Hate Mice
 
@@ -20,7 +20,7 @@ If you've ever wanted to input a list of the technologies you know into a web ap
 
 ![What's your stack?](/images/hbio_stack.png)
 
-Once you get behind the fancy registration UI, the app is really nothing more than a <a href="http://prawn.majesticseacreature.com/">Prawn</a> (<3) renderer (albeit quite a nice one), with a little Markdown parsing thrown in for for good measure. It's running on <a href="http://www.mongodb.org/">Rails 3.1</a> backed by <a href="http://www.mongodb.org/">MongoDB</a>.
+Once you get behind the fancy registration UI, the app is really nothing more than a [Prawn](http://prawn.majesticseacreature.com) (&lt;3) renderer (albeit quite a nice one), with a little Markdown parsing thrown in for for good measure. It's running on [Rails 3.1](http://rubyonrails.org) backed by [MongoDB](http://www.mongodb.org/).
 
 ![Editor](/images/hbio_editor.png)
 
