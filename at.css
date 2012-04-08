@@ -18,6 +18,19 @@ h1 span {
 	font-style:italic;
 }
 
+article img {
+	border:1px solid #ddd;
+}
+
+iframe {
+	border:0;
+}
+
+p.caption {
+	margin-top:0;
+	font-size:12px;
+}
+
 .twitter-link {
 	display:block;
 	background-position:center center;
@@ -95,19 +108,32 @@ nav a:first-child {
 nav a.nerd-stuff, .circle.nerd-stuff {
 	background-color:#f22057;
 }
+article.nerd-stuff a {
+	color:#f22057;
+}
 
 nav a.writing, .circle.writing {
 	background-color:#28ab38;
 }
+article.writing a {
+	color:#28ab38;
+}
 
 nav a.music, .circle.music {
 	background-color:#208df2;
+}
+article.music a {
+	color:#208df2;
 }
 
 .posts.list,
 article {
 	clear:both;
 	padding-top:60px;
+}
+
+article p {
+	margin:20px 0 25px 0;
 }
 
 article h1 {
