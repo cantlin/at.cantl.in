@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<ul class="posts list">{% for post in site.posts %}
+  <li><span class="circle {{ post.category }}"></span><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+</ul>

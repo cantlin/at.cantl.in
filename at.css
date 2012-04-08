@@ -1,0 +1,149 @@
+body {
+	margin:0 auto;
+	width:700px;
+	font-family:'Merriweather', 'Georgia', serif;
+}
+
+h1, h1 a {
+	font-family:'Georgia';
+	font-size:26px;
+	color:#222;
+	font-weight:normal;
+	margin:15px 0 0 0;
+}
+
+h1 span {
+	font-size:14px;
+	color:#555;
+	font-style:italic;
+}
+
+.twitter-link {
+	display:block;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAIAAADA5ys1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAShJREFUeNp0UbuugkAUlAUKAuGaCESERjoKSr7YH7CjoLGhptMAsSCYGEIhjwJ5yL2jS4jNPcU+hjkzc5bV7/+VZdn5fF6uZPWpPM9XX9V13eFwCIKAELKAHN08zwPquq5t27hCTNM0QRCSJOF53rIsgHOT4zjb7TaKouPxWFUVrBVF+flUGIYwAYdBCGxlWV4uF4Zh6roehkGWZZBYlh3H8fF44ID+OcB6vQYDK+ymacJKU4IkSRJ4UJxVUUVR3G43kN7DErLgEEZowzBI3/cUUlVVFMXX64UYFKGH5/OJsaBNTqfT9XptmuZ+vyMW3PGZSmKF5H6/h9W7s21b3/cxI2JtNhsMxHHc8rq73U7X9dmECqRpGscxqOAhKEhwNE0TkZZf8CfAAIIrvZ9TGnQqAAAAAElFTkSuQmCC');
+	width:20px;
+	height:24px;
+	overflow:hidden;
+	text-align:-999px;
+	font-size:0;
+	margin:30px auto;
+}
+
+.twitter-link:hover {
+	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAIAAADA5ys1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVVJREFUeNpi+I8b7Ln1ZPaJG3AuEwMYnHvymgEJfPj2S2TCZpeFh/8zM8MFoUrdVh8X7t88+9RNCLfz6I23P9gYhCTT9t1Zc+UhRJARaDKQSt95ZdaFZww/vulJcG4ItVaae4SBS5iBhZXhxxeGb+/eFbgLcrJDlZ598dFkzXWQ3q+fGFgYGVi4GLj4GBgZGf7+Yfj6IVSe692nj1ClQKC69sqd9/8Z/vxm+PsXZB4zC0gpUPb3T4bvnxm+fGSCu3qGqTRIESsbAzsnQh0QMLOkmijczXNlev/tJ0Sps5xgqjo/SJoRzIfZxsD8r9NMWkmAi/m+jgvQZA4WpnPPP6x78O7hl78MjIgAYvj3d7WjrLEYDygE3n774bDs2OUHrxnY2Bl4BEG+AdoOASz/Z5iKp2uLoQTWrMvP0i+/YvgI9hAjEwMrY6Asd4+xuBI/J9wCgAADAIAxqNC3znq2AAAAAElFTkSuQmCC');
+}
+
+.posts.list {
+	list-style-type:none;
+	font-size:18px;
+	padding:0;
+	margin:40px 0;
+}
+
+.posts.list li a {
+	display:block;
+	border-bottom:1px solid #ccc;
+	padding:10px 0;
+	color:#333;
+}
+
+a:hover, .posts.list li a:hover {
+	color:#000;
+}
+
+a {
+	text-decoration:none;
+}
+
+p {
+	
+	font-size:15px;
+	line-height:1.5;
+	font-weight:300;
+}
+
+nav {
+	margin:10px 0 40px 0;
+}
+
+nav a {
+	font-size:12px;
+	color:white;
+	text-transform:lowercase;
+
+	display:block;
+	float:left;
+	padding:5px 7px;
+	background-color:#666;
+	border-left:2px solid #fff;
+}
+
+nav a:hover {
+	color:#fff;
+}
+
+nav a:last-child {
+	border-right:none;
+}
+
+nav a:first-child {
+	border-left:none;
+}
+
+nav a.nerd-stuff, .circle.nerd-stuff {
+	background-color:#f22057;
+}
+
+nav a.writing, .circle.writing {
+	background-color:#28ab38;
+}
+
+nav a.music, .circle.music {
+	background-color:#208df2;
+}
+
+.posts.list,
+article {
+	clear:both;
+	padding-top:60px;
+}
+
+article h1 {
+	font-size:36px;
+	line-height:42px;
+	font-family:'Merriweather', 'Georgia', serif;
+	color:#222;
+	border-bottom:1px solid #ccc;
+	padding-bottom:6px;
+	margin-bottom:12px;
+}
+
+article h1, h2, h3 {
+	font-weight:normal;
+}
+
+article.nerd-stuff {
+}
+
+article span.date {
+	display:block;
+	margin-bottom:20px;
+	font-size:13px;
+	color:#555;
+	font-style:italic;
+}
+
+.circle {
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background-color:#28ab38;
+	float:left;
+	margin:3px 5px 0 0;
+}
+
+.posts.list .circle {
+	margin:14px 8px 0 0;
+}
