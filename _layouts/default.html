@@ -1,6 +1,7 @@
 <!doctype html>
 <title>@cantlin</title>
-{% if page and page.title %}<meta name="description" content="&quot;{{ page.title }}&quot;{% if page.date and page.content %}, {{ page.date | date_to_long_string }}. {{ page.content | strip_html | strip_newlines | truncate:60 }}{% else %}.{% endif %}">{% else %}<meta name="description" content="cantlin's blog">{% endif %}
+{% if page and page.title %}<meta name="description" content="&quot;{{ page.title }}&quot;{% if page.date and page.content %}, {{ page.date | date_to_long_string }}. {{ page.content | strip_html | strip_newlines | truncate:70 }}{% else %}.{% endif %}">{% else %}<meta name="description" content="Cantlin Ashrowan's internet blog thing. Strong words, weakly held.">{% endif %}
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 <link href="http://fonts.googleapis.com/css?family=Merriweather" type="text/css" rel="stylesheet" />
 <link href="http://at.cantl.in/feed.xml" rel="alternate" type="application/rss+xml" title="rss2" />
 <link href="/at.css" rel="stylesheet" />
@@ -13,6 +14,8 @@
 	<a class="writing" href="/writing">Writing</a>
 	<a class="music" href="/music">music</a>
 </nav>
+
+<div id="last-fm" style="display:none;"></div>
 
 {{ content }}
 
