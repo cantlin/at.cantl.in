@@ -29,5 +29,5 @@ req.onreadystatechange = function() {
     }
 }
 
-req.open('GET', 'http://at.cantl.in/last.php');
+req.open('GET', '/last.php');
 req.send();
