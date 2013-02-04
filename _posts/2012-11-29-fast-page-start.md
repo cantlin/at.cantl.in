@@ -6,7 +6,7 @@ category: nerd-stuff
 
 ## The Infamous Blocking Script
 
-Increasingly, our initial response body isn't much more than the shopping list of assets we need to cook up a complete render. There are huge wins to be had optimising how we handle getting all this stuff to the user.
+Increasingly, our webserver's initial response body isn't much more than the shopping list of assets we need to cook up a complete render. There are huge wins to be had optimising how we handle getting all this stuff to the user.
 
 In the past browsers would block on <code>&lt;script&gt;</code> tags to the extent of waiting for each remote piece of Javascript to fully download, parse and execute before downloading the next asset. This was dumb for many reasons.
 
@@ -27,7 +27,7 @@ Beware referencing hostnames for the first time in included files like styleshee
 
 ## Minimizing HTTP request overhead
 
-Although HTTP/1.1 connections are kept alive by default, this is no help to us on the first page load, where we're leveraging many parallel connections. Each connection has to contend with network latency in the form of RTT x 3 ([SYN, SYN-ACK, ACK](http://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)) and TCP's [congestion control](http://tools.ietf.org/html/rfc5681). Since most clients have asynchronous connections, reducing the [size of our HTTP requests](https://developers.google.com/speed/docs/best-practices/request) is definitely worth considering, especially if it brings them under the approximate 1500byte TCP packet size. A little good news is that the latency penalty is now somewhat offset on mobile by the increased adoption of [HTTP pipelining](http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html), which as of iOS 5 has made it to Mobile Safari in addition to Android and Opera Mini.
+Although HTTP/1.1 connections are kept alive by default, this is no help to us on the first page load, where we're leveraging many parallel connections. Each connection has to contend with network latency in the form of RTT x 1.5 ([SYN, SYN-ACK, ACK](http://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)) and TCP's [congestion control](http://tools.ietf.org/html/rfc5681). Since most clients have asynchronous connections, reducing the [size of our HTTP requests](https://developers.google.com/speed/docs/best-practices/request) is definitely worth considering, especially if it brings them under the approximate 1500byte TCP packet size. A little good news is that the latency penalty is now somewhat offset on mobile by the increased adoption of [HTTP pipelining](http://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html), which as of iOS 5 has made it to Mobile Safari in addition to Android and Opera Mini.
 
 The question of whether to start going the whole hog and [throwing around data-uri's](https://gist.github.com/3828068) in your stylesheets to save HTTP requests is more difficult. As much as we want to avoid latency, there are certainly situations - particularly in editorial contexts - where it's right and proper for images to trickle in after the text and layout. Most conscientious developers stick to using them for glyphs and icons, where they have made spritesheets virtually obselete for all but those who need [IE7](http://www.phpied.com/mhtml-when-you-need-data-uris-in-ie7-and-under/) support.
 
@@ -61,7 +61,7 @@ These simulate the perfectly real-world scenario of a stylesheet taking three se
 
 ### Don't let Javascript block the UI
 
-It's well documented that Javascript should appear *at the end of the HTML*. This is because putting it anywhere else will [block UI render](http://cantl.in/pub/blocking/js/js_block.html). Every time a script in the <code>&lt;head&gt;</code> consists of a <code>$(function() { ...</code> call, baby Jesus sheds a tear. If you're considering <code>defer</code> and <code>async</code>, it's worth keeping in mind that you will sacrifice support for [IE &lt;10](http://caniuse.com/#feat=script-async) with little or no difference to the actual client behaviour than if you had achieved the effect with server-side templating.
+It's well documented that Javascript should appear *at the end of the HTML*. This is because putting it anywhere else will block UI render. Every time a script in the <code>&lt;head&gt;</code> consists of a <code>$(function() { ...</code> call, baby Jesus sheds a tear. If you're considering <code>defer</code> and <code>async</code>, it's worth keeping in mind that you will sacrifice support for [IE &lt;10](http://caniuse.com/#feat=script-async) with little or no difference to the actual client behaviour than if you had achieved the effect with server-side templating.
 
 ## Can you live without jQuery?
 
@@ -70,6 +70,10 @@ If your project is small, and you don't need to support IE, or if your project i
 ## Don't hit the app
 
 This might as well be the battle-cry of web performance, alongside *"cache everything!"*. Whichever way you spin it, running every request through your whole Ruby or Python or whatever stack is going to hurt response times. Outside of application level performance tuning, it's worth wondering how many of those requests even need the attention of your app. Something like [varnishd](https://www.varnish-cache.org/) can run close to the metal, serving up ready-to-go renders straight out of memory. Static site generating tools like [jekyll](https://github.com/mojombo/jekyll) offer similar wins.  Of course, this gets tricky to impossible when cookies are involved, but user's first point of contact with you is almost certainly as an anonymous browser. First impressions count.
+
+### Corrections
+
+Did I get something wrong? Hit me with any corrections via <a href="mailto:cantlin@ashrowan.com">email</a> or over on <a href="http://twitter.com/cantlin">Twitter</a>.
 
 <!-- When every bit of Javascript in a project begins <code>$(function() {...</code>, something is amiss. Sure, there are reasons we might want to do that, but for too many <code>DOMContentLoaded</code> seems to be merely the defacto starting place. A script's goal should generally be to execute at the first moment it won't break, and in a world where it commonly constructs its own DOM, this can often be right away. The question to ask is *what is the desired execution context for this code*. Serving it at the right time trumps programmatically delaying execution.
 
