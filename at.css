@@ -55,11 +55,22 @@ p.caption {
 	margin:40px 0;
 }
 
+.posts .meta {
+	font-size:14px;
+	font-style:italic;
+	padding:0 0 10px 19px;
+	display:block;
+	color:#555;
+}
+
 .posts.list li a {
 	display:block;
-	border-bottom:1px solid #ccc;
-	padding:10px 0;
+	padding:10px 0 0 0;
 	color:#333;
+}
+
+.posts.list li {
+	border-bottom:1px solid #ccc;
 }
 
 a:hover, .posts.list li a:hover {

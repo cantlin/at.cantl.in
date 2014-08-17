@@ -3,5 +3,21 @@ layout: default
 ---
 
 <ul class="posts list">{% for post in site.posts %}
-  <li><span class="circle {{ post.category }}"></span><a href="{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
+  <li{% if post.external_url %} class="external"{% endif %}>
+  	<span class="circle {{ post.category }}"></span>
+  	{% if post.external_url %}
+	  <a href="{{ post.external_url }}" target="_blank">
+		{{ post.title }} <img src="/images/ext_link.png" alt="External link" />
+	  </a>
+	{% else %}
+	  <a href="{{ post.url }}">{{ post.title }}</a>
+	{% endif %}
+	<span class="meta">
+		{% if post.external_url == undefined %}{{ post.content | count_words }} words from {% endif %}{{ post.date | date:"%B %Y" }}
+		{% if post.external_url %}
+			{% assign url_parts = post.external_url | split:"/" %}
+			<span class="external-domain">&bullet; {{ url_parts[2] }}</span>
+		{% endif %}
+	</span>
+  </li>{% endfor %}
 </ul>
