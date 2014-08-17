@@ -15,8 +15,7 @@ layout: default
 	<span class="meta">
 		{% if post.external_url == undefined %}{{ post.content | count_words }} words from {% endif %}{{ post.date | date:"%B %Y" }}
 		{% if post.external_url %}
-			{% assign url_parts = post.external_url | split:"/" %}
-			<span class="external-domain">&bullet; {{ url_parts[2] }}</span>
+			<span class="external-domain">&bullet; {{ post.external_url | remove:'http://' | remove:'https://' | split:'/' | first }}</span>
 		{% endif %}
 	</span>
   </li>{% endfor %}
