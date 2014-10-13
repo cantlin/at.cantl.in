@@ -64,7 +64,9 @@ It's clear that the increasingly intimate relationship we have with technology w
 
 Digital product teams across all news organisations are having the same internal debates about which metrics to optimise on. Of course, turning one page view into two is always going to be a valuable trick if you can pull it off. There are very worthwhile efforts towards recommendation and personalisation being built the world over, and I applaud them entirely.
 
-But it's easy to forget that our job is to optimise on brand equity too. And that means doing a lot of things with business cases that are much less clear. It means investing heavily in finding new, better metrics for audience engagement. It means being useful to your readers in ways which may move those metrics over the course of years, not months or quarters. It means looking to the future, to emerging tech – it means playing like tech companies.
+But it's easy to forget that our job is to optimise on brand equity too. And that means doing a lot of things with business cases that are much less clear.
+
+For a start, it means investing heavily in finding new, better metrics for audience engagement. It means being useful to your readers in ways which may move those metrics over the course of years, not months or quarters. It means looking to the future, to emerging tech – it means playing like tech companies.
 
 Ultimately it means believing in the mission of your company, believing in the resonance it has with your audience, and investing in bringing mission and audience together as often as possible.
 
