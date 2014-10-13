@@ -100,7 +100,6 @@ nav a {
 	display:block;
 	float:left;
 	padding:5px 7px;
-	background-color:#666;
 	border-left:2px solid #fff;
 }
 
@@ -114,6 +113,12 @@ nav a:last-child {
 
 nav a:first-child {
 	border-left:none;
+	/*padding:5px 7px 5px 0;*/
+	/*color:#555;*/
+}
+
+nav a.home {
+	color:#555;
 }
 
 nav a.nerd-stuff, .circle.nerd-stuff {
@@ -128,6 +133,13 @@ nav a.writing, .circle.writing {
 }
 article.writing a {
 	color:#28ab38;
+}
+
+nav a.news-news, .circle.news-news {
+	background-color:#FDB13B;
+}
+article.news-news a {
+	color:#FDB13B;
 }
 
 nav a.music, .circle.music {
