@@ -1,5 +1,5 @@
 <!doctype html>
-<title>@cantlin</title>
+<title>{% if page and page.title %}{{ page.title }} - @cantlin{% else %}@cantlin{% endif %}</title>
 {% if page and page.title and page.content %}{% else %}<meta name="description" content="Cantlin Ashrowan's internet blog thing. Strong words, weakly held.">{% endif %}
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 <link href="http://fonts.googleapis.com/css?family=Merriweather" type="text/css" rel="stylesheet" />
