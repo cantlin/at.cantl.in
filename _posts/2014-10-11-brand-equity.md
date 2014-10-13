@@ -68,7 +68,9 @@ But it's easy to forget that our job is to optimise on brand equity too. And tha
 
 Ultimately it means believing in the mission of your company, believing in the resonance it has with your audience, and investing in bringing mission and audience together as often as possible.
 
-## Further reading
+*Cantlin is a Product Manager at the Guardian. Follow him on Twitter [here](http://twitter.com/cantlin).*
+
+### Further reading
 
 1. [What’s the key to media success? Products
 that build relationships](https://medium.com/captivate-us/products-that-build-relationships-are-key-to-media-success-84c2f2bc13a1) – <em>David Cohn</em>
