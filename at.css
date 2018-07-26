@@ -121,10 +121,10 @@ nav a.home {
 	color:#555;
 }
 
-nav a.nerd-stuff, .circle.nerd-stuff {
+nav a.work, .circle.work {
 	background-color:#f22057;
 }
-article.nerd-stuff a {
+article.work a {
 	color:#f22057;
 }
 
@@ -133,13 +133,6 @@ nav a.writing, .circle.writing {
 }
 article.writing a {
 	color:#28ab38;
-}
-
-nav a.news-news, .circle.news-news {
-	background-color:#FDB13B;
-}
-article.news-news a {
-	color:#FDB13B;
 }
 
 nav a.music, .circle.music {

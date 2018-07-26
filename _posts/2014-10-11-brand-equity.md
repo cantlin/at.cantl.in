@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "All your KPIs are probably wrong. Or, how to optimise on being valuable"
-category: news-news
+category: work
 ---
 
 If you're in the newspaper business, you make somewhere between 30% and 100% of your digital revenue on ads.

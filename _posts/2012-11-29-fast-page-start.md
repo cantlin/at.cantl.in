@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Food for Thought on Fast Page Start
-category: nerd-stuff
+category: work
 ---
 
 ## The Infamous Blocking Script

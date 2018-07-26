@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proposed Extension to the HTTP/1.1 Status Code Specificaton (RFC 2616)
-category: nerd-stuff
+category: work
 ---
 
 ## Existential Crisis 6xx

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On Awful Online Job Application Systems"
-category: nerd-stuff
+category: work
 ---
 
 Perhaps Accenture don't want me. It's not surprising: my first girlfriend felt the same. Unlike Accenture though, her initial advances - you know, the ones before you know whether you really want something or not - were at least competent.

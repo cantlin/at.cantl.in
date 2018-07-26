@@ -1,7 +1,7 @@
 ---
 layout: post
 title: hackerb.io
-category: nerd-stuff
+category: work
 ---
 
 It's been a hacky Easter weekend. Besides finally fixing the backend on [Angus's site](http://angusgreig.com), closing the doors on [Brick](http://brickmedialab.com) and putting together this blog, I've also had a chance to dust off my little CV generating app, [hackerb.io](http://hackerb.io).
