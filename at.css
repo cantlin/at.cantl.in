@@ -262,5 +262,12 @@ code {
 @media screen and (max-width: 900px) {
 	body {
 		max-width:700px;
+		padding:0 20px;
+	}
+	article h1 {
+		font-size:45px;
+	}
+	.masthead-text h1 {
+		font-size:22px;
 	}
 }
