@@ -3,15 +3,17 @@ layout: post
 title: Rightsizing product and engineering teams
 ---
 
-<div class="iframe-wrapper">
-	<iframe width="100%" src="https://www.youtube.com/embed/KNWHNHIJj2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 **So, you just raised a big round.** After the effects of the champagne wear off, you turn to your first order of business. It's time to grow your product development team, so you can build more great stuff your customers love.
 
 You now have a big question to answer: how much will you grow your engineering team, and how much will you grow your product team? For some, it might be time to hire their first PM, or their twentieth. Then again, perhaps the money would be better spent on getting that hairy codebase in shape for the next big push.
 
 More broadly, over the whole lifetime of your company, you will have to answer this fundamental question: what balance will you seek between the disciplines of product and engineering?
+
+If you prefer a video, here's one. Otherwise, read on.
+
+<div class="iframe-wrapper">
+	<iframe width="100%" src="https://www.youtube.com/embed/KNWHNHIJj2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Magic ratios
 
