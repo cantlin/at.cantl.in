@@ -4,7 +4,7 @@ layout: default
 
 <ul class="posts list">{% for post in site.posts %}
   <li{% if post.external_url %} class="external"{% endif %}>
-  	<span class="circle {{ post.category }}"></span>
+  	<!-- <span class="circle {{ post.category }}"></span> -->
   	{% if post.external_url %}
 	  <a href="{{ post.external_url }}" target="_blank">
 		{{ post.title }} <img src="/blog/images/ext_link.png" alt="External link" />

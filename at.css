@@ -1,15 +1,48 @@
 body {
 	margin:0 auto;
 	max-width:700px;
-	font-family:'Merriweather', 'Georgia', serif;
+	font-family: 'Sorts Mill Goudy', 'Georgia', serif;
+}
+
+p {
+	font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+
+}
+
+h2 {
+	font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+	font-weight:bold;
+}
+
+article h1 {
+	font-family: 'Sorts Mill Goudy', 'Georgia', serif;
+	line-height:1.05;
+	padding:0;
+}
+
+.masthead-text {
+	font-family: 'Sorts Mill Goudy', 'Georgia', serif;
+}
+
+.iframe-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h1, h1 a {
-	font-family:'Georgia';
 	font-size:26px;
 	color:#222;
 	font-weight:normal;
-	margin:15px 0 0 0;
+	margin:0;
 }
 
 h1 span {
@@ -19,11 +52,37 @@ h1 span {
 }
 
 article img {
-	border:1px solid #ddd;
+	width:100%;
 }
 
 iframe {
 	border:0;
+}
+
+.masthead-container {
+	display: flex;
+	flex-direction: row;
+	margin-top:40px;
+}
+
+.masthead-logo img {
+	width:50px;
+	height:50px;
+	margin:-6px -8px 0 -16px;
+}
+
+.masthead-text h1 {
+	/*font-style: italic;*/
+	margin-bottom:-4px;
+}
+
+.masthead-tagline {
+	color:#555;
+	font-size:14px;
+}
+
+.masthead-tagline a {
+	color:black;
 }
 
 p.caption {
@@ -35,30 +94,29 @@ p.caption {
 	display:block;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAIAAADA5ys1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAShJREFUeNp0UbuugkAUlAUKAuGaCESERjoKSr7YH7CjoLGhptMAsSCYGEIhjwJ5yL2jS4jNPcU+hjkzc5bV7/+VZdn5fF6uZPWpPM9XX9V13eFwCIKAELKAHN08zwPquq5t27hCTNM0QRCSJOF53rIsgHOT4zjb7TaKouPxWFUVrBVF+flUGIYwAYdBCGxlWV4uF4Zh6roehkGWZZBYlh3H8fF44ID+OcB6vQYDK+ymacJKU4IkSRJ4UJxVUUVR3G43kN7DErLgEEZowzBI3/cUUlVVFMXX64UYFKGH5/OJsaBNTqfT9XptmuZ+vyMW3PGZSmKF5H6/h9W7s21b3/cxI2JtNhsMxHHc8rq73U7X9dmECqRpGscxqOAhKEhwNE0TkZZf8CfAAIIrvZ9TGnQqAAAAAElFTkSuQmCC');
-	width:20px;
-	height:24px;
+	background: transparent url('https://cantl.in/assets/twitter.svg') no-repeat center;
+	background-size: 34px 34px;
+	background-color:#00aeff;
+	width:64px;
+    height:64px;
+    border-radius:32px;
 	overflow:hidden;
 	text-align:-999px;
 	font-size:0;
 	margin:40px auto 60px auto;
 }
 
-.twitter-link:hover {
-	background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAIAAADA5ys1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVVJREFUeNpi+I8b7Ln1ZPaJG3AuEwMYnHvymgEJfPj2S2TCZpeFh/8zM8MFoUrdVh8X7t88+9RNCLfz6I23P9gYhCTT9t1Zc+UhRJARaDKQSt95ZdaFZww/vulJcG4ItVaae4SBS5iBhZXhxxeGb+/eFbgLcrJDlZ598dFkzXWQ3q+fGFgYGVi4GLj4GBgZGf7+Yfj6IVSe692nj1ClQKC69sqd9/8Z/vxm+PsXZB4zC0gpUPb3T4bvnxm+fGSCu3qGqTRIESsbAzsnQh0QMLOkmijczXNlev/tJ0Sps5xgqjo/SJoRzIfZxsD8r9NMWkmAi/m+jgvQZA4WpnPPP6x78O7hl78MjIgAYvj3d7WjrLEYDygE3n774bDs2OUHrxnY2Bl4BEG+AdoOASz/Z5iKp2uLoQTWrMvP0i+/YvgI9hAjEwMrY6Asd4+xuBI/J9wCgAADAIAxqNC3znq2AAAAAElFTkSuQmCC');
-}
-
 .posts.list {
 	list-style-type:none;
-	font-size:18px;
+	font-size:24px;
 	padding:0;
 	margin:40px 0;
 }
 
-.posts .meta {
-	font-size:14px;
+.meta {
+	font-size:18px;
 	font-style:italic;
-	padding:0 0 10px 19px;
+	padding:0 0 10px 0;
 	display:block;
 	color:#555;
 }
@@ -70,7 +128,7 @@ p.caption {
 }
 
 .posts.list li {
-	border-bottom:1px solid #ccc;
+	/*border-bottom:1px solid #ccc;*/
 }
 
 a:hover, .posts.list li a:hover {
@@ -83,7 +141,7 @@ a {
 
 p {
 	
-	font-size:15px;
+	font-size:20px;
 	line-height:1.5;
 	font-weight:300;
 }
@@ -121,7 +179,7 @@ nav a.home {
 	color:#555;
 }
 
-nav a.work, .circle.work {
+/*nav a.work, .circle.work {
 	background-color:#f22057;
 }
 article.work a {
@@ -140,7 +198,7 @@ nav a.music, .circle.music {
 }
 article.music a {
 	color:#208df2;
-}
+}*/
 
 .posts.list,
 article {
@@ -149,58 +207,41 @@ article {
 }
 
 article p {
-	margin:20px 0;
+	margin:24px 0;
+	line-height:1.5;
 }
 
 article h1 {
-	font-size:36px;
-	line-height:42px;
-	font-family:'Merriweather', 'Georgia', serif;
+	font-size:58px;
+	/*line-height:52px;*/
 	color:#222;
-	border-bottom:1px solid #ccc;
 	padding-bottom:6px;
-	margin-bottom:12px;
-}
-
-article h1, h2, h3 {
-	font-weight:normal;
 }
 
 h2 {
-	border-bottom:1px solid #ddd;
-	padding-bottom:2px;
-	margin-top:1.4em;
+	margin-bottom:-20px;
 }
 
 h3 {
 	margin:1.4em 0 1em 0;
 	color:#333;
-	border-bottom:1px solid #ddd;
 	padding-bottom:5px;
 }
 
 article.nerd-stuff {
 }
 
-article span.date {
-	display:block;
-	margin-bottom:20px;
-	font-size:13px;
-	color:#555;
-	font-style:italic;
-}
-
 .circle {
 	width:10px;
 	height:10px;
 	border-radius:5px;
-	background-color:#28ab38;
+	/*background-color:#28ab38;*/
+	background-color:black;
 	float:left;
-	margin:3px 5px 0 0;
 }
 
 .posts.list .circle {
-	margin:14px 8px 0 0;
+	margin:19px 12px 0 8px;
 }
 
 code {

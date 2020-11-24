@@ -2,17 +2,25 @@
 <title>{% if page and page.title %}{{ page.title }} - @cantlin{% else %}@cantlin{% endif %}</title>
 {% if page and page.title and page.content %}{% else %}<meta name="description" content="Cantlin Ashrowan's internet blog thing. Strong words, weakly held.">{% endif %}
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-<link href="http://fonts.googleapis.com/css?family=Merriweather" type="text/css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Castoro&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
 <link href="/blog/feed.xml" rel="alternate" type="application/rss+xml" title="rss2" />
 <link href="/blog/at.css" rel="stylesheet" />
 
-<h1><a href="/blog/">@cantlin</a> <span>strong words weakly held</span></h1>
-
-<nav>
-	<a class="work" href="/blog/work">work</a>
-	<a class="writing" href="/blog/writing">writing</a>
-	<a class="home" href="/">home</a>
-</nav>
+<header class="masthead-container">
+	<div class="masthead-logo">
+		<a href="/blog/">
+			<img src="/blog/images/logo.svg">
+		</a>
+	</div>
+	<div class="masthead-text">
+		<h1>
+			<a href="/blog/">valuable systems</a>
+		</h1>
+		<span class="masthead-tagline">the blog of <a href="https://cantl.in">cantlin ashrowan</a></span>
+		
+	</div>
+</header>
 
 <div id="last-fm" style="display:none;"></div>
 
