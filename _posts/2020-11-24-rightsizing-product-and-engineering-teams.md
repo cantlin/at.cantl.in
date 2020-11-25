@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Rightsizing product and engineering teams
+title: Rightsizing product and engineering teams 🔥
+image: images/rightsizing-product-and-engineering-teams-og-image.jpg
+description: "So, you just raised a big round. After the effects of the champagne wear off, you turn to your first order of business: making even more great stuff that your customers will love. It's time to grow your product development team."
 ---
 
-**So, you just raised a big round.** After the effects of the champagne wear off, you turn to your first order of business. It's time to grow your product development team, so you can build more great stuff your customers love.
+**So, you just raised a big round.** After the effects of the champagne wear off, you turn to your first order of business: making even more great stuff that your customers will love. It's time to grow your product development team.
 
-You now have a big question to answer: how much will you grow your engineering team, and how much will you grow your product team? For some, it might be time to hire their first PM, or their twentieth. Then again, perhaps the money would be better spent on getting that hairy codebase in shape for the next big push.
+You now have a big question to answer. How much will you grow engineering, and how much will you grow product? For some, this might be when they're hiring their first PM. For others, their twentieth. Then again, perhaps the money would be better spent on getting that hairy codebase in shape for the next big push.
 
 More broadly, over the whole lifetime of your company, you will have to answer this fundamental question: what balance will you seek between the disciplines of product and engineering?
 
@@ -33,13 +35,15 @@ This is based on the observation that there is no value in discovering solutions
 
 Say a genie comes to you and says they will instantly change your product to be whatever you want it to be. Your product's ideal state is whatever you would wish for in that moment. It represents the sum of all the product discovery you've done pursuant to your current goals.
 
+![Diagram of a stock of "ideal state" being added to by an arrow labelled discovery and removed from by another arrow labelled delivery](/blog/images/ideal-state-diagram.jpg)
+
 Of course we don't have a genie, but our team does have engineers. And by turning these ideas into reality, our team consumes our stock of ideal state. If we go fast enough, we can even exhaust it.
 
 So if we agree we need to match the pace of discovery and delivery, it remains to be seen how to do that.
 
 ## If you can't measure it, you can't change it
 
-One thing we could try is a quantitive approach to comparing the pace of discovery and delivery. We could count the number of customer problems we'd identified, the prototypes we'd made, tests we'd run, tickets closed, releases deployed, for example.
+One thing we could try is a quantitive approach to comparing the pace of discovery and delivery. We could count the number of customer problems we identified, prototypes made, tests run, tickets closed and releases deployed. Then we could work back from there to understand how many more people we should allocate to each process.
 
 Unfortunately, on closer examination this doesn't make sense, since the discovery time of an individual piece of work will often not relate to the time it takes to deliver.
 
@@ -47,18 +51,18 @@ An alternative is to give up on the project of measurement entirely and instead 
 
 ## Hyperdiscovery and hyperdelivery
 
-There are two failure modes of product development resourcing, "hyperdiscovery" and "hyperdelivery." At any moment in time every organisation on the planet has at least a mild case of one or the other of these, and it's usually easy to tell which.
+This "productive equilibrium" has two failure modes, "hyperdiscovery" and "hyperdelivery." At any moment in time every organisation on the planet has at least a mild case of one or the other of these, and it's usually easy to tell which.
 
-If we are discovering work to do faster than we're delivering it - that is, living in "hyperdiscovery" - our team will start feeling like a talking shop. People will start wondering what point there is in having ideas, since we already have so many great ideas we haven't got round to building yet.
+If we are discovering work to do faster than we're delivering it &ndash; that is, living in hyperdiscovery &ndash; our team will start feeling like a talking shop. People will start wondering what point there is in having ideas, since we already have so many great ideas we haven't got round to building yet.
 
-On the other hand, if we are delivering work faster than we are discovering it - "hyperdelivery" - our team will start running on guesswork. People will start wondering what point there is in thinking critically about things, since we are committing so much time to work that has not been proved to be worth doing. This is often the telltale sign that more product people are needed.
+On the other hand, if we are delivering work faster than we are discovering it &ndash; hyperdelivery &ndash; our team will start running on guesswork. People will start wondering what point there is in thinking critically about things, since we are committing so much time to work that has not been proved to be worth doing. This is often the telltale sign that more product people are needed.
 
-In both failure modes, there are many other factors to consider other than the volume of people within product and engineering. What is often really happening in supposed cases of hyperdiscovery, for example, is that ideas are being validated too flippantly. In another example, hyperdelivery can be caused because the goal posts are being moved too often, rendering previous discovery work useless.
+In both failure modes, there are many other factors to consider other than the volume of people within product and engineering. What is often really happening in supposed cases of hyperdiscovery, for example, is that ideas are being validated too flippantly. In another example, hyperdelivery can be caused by the goal posts being moved too often, rendering previous discovery work less useful.
 
 But understanding whether we are currently in hyperdelivery or hyperdiscovery is a good starting point, and a good place from which to make growth decisions.
 
 ## Last words
 
-Creating ideal state at the same rate that it is consumed maximises the efficiency of product development organisations. Measuring these rates directly is difficult, but it is usually easy to determine whether creation or consumption are leading. A diagnosis of "hyperdelivery" or "hyperdiscovery" is a good jumping off point for discussions about resourcing.
+Creating ideal state at the same rate that it is consumed maximises the efficiency of product development organisations. Measuring these rates relative to each other is difficult, but it is usually easy to determine whether creation or consumption are leading. A diagnosis of "hyperdelivery" or "hyperdiscovery" is a good jumping off point for discussions about resourcing.
 
-A final cautionary word is that as Rolf Dobelli is fond of saying, humans tend to overemphasise the importance of setting things up right, as opposed to the value of constantly correcting them. Even within individual product teams the right balance of resourcing will change as they move through different parts of the product lifecycle. When you amplify these small shifts to the scale of hundreds of such teams, it becomes clear that correctly resourcing is not a trivial problem. But by focusing on ideal state generation and consumption, it is one that can be readily grappled with.
+A final cautionary thought is that &ndash; as Rolf Dobelli is fond of saying &ndash; humans tend to overemphasise the importance of set up vs. continual course correction. Even within individual cross-functional teams, the balance required between different disciplines will change substantially as their products evolve. When you consider the impact of  these small shifts to the scale of hundreds of such teams, it becomes clear that correctly resourcing is not a trivial problem. But by focusing on ideal state generation and consumption, it is one that can be readily grappled with.

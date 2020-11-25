@@ -3,6 +3,9 @@ layout: default
 ---
 
 <ul class="posts list">{% for post in site.posts %}
+	{% if post.archived %}
+		{% continue %}
+	{% endif %}
   <li{% if post.external_url %} class="external"{% endif %}>
   	<!-- <span class="circle {{ post.category }}"></span> -->
   	{% if post.external_url %}

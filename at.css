@@ -21,7 +21,7 @@ article h1 {
 	padding:0;
 }
 
-.masthead-text {
+header h1 {
 	font-family: 'Sorts Mill Goudy', 'Georgia', serif;
 }
 
@@ -69,17 +69,23 @@ iframe {
 .masthead-logo img {
 	width:50px;
 	height:50px;
-	margin:-6px -8px 0 -16px;
+	margin:-6px -8px 0 -13px;
 }
 
 .masthead-text h1 {
 	/*font-style: italic;*/
-	margin-bottom:-4px;
+	margin-bottom:-5px;
+}
+
+.masthead-tagline,
+.meta {
+	color:#777;
+	font-size:14px;
 }
 
 .masthead-tagline {
-	color:#555;
-	font-size:14px;
+	/*font-size:14px;*/
+	padding-left:4px;
 }
 
 .masthead-tagline a {
@@ -115,11 +121,9 @@ p.caption {
 }
 
 .meta {
-	font-size:16px;
 	font-style:italic;
 	padding:4px 0 10px 0;
 	display:block;
-	color:#555;
 }
 
 .posts.list li a {
@@ -205,7 +209,7 @@ article.music a {
 .posts.list,
 article {
 	clear:both;
-	padding-top:60px;
+	padding-top:45px;
 }
 
 article p {
@@ -221,7 +225,9 @@ article h1 {
 }
 
 h2 {
-	margin-bottom:-20px;
+	margin-bottom:-18px;
+	margin-top:28px;
+	font-size:21px;
 }
 
 h3 {
