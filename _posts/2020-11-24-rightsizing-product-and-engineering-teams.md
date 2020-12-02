@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Rightsizing product and engineering teams 🔥
+title: Right-sizing product and engineering teams
 image: images/rightsizing-product-and-engineering-teams-og-image.jpg
 description: "So, you just raised a big round. After the effects of the champagne wear off, you turn to your first order of business: making even more great stuff that your customers will love. It's time to grow your product development team."
 ---
 
-**So, you just raised a big round.** After the effects of the champagne wear off, you turn to your first order of business: making even more great stuff that your customers will love. It's time to grow your product development team.
+**So, you just raised a big round.** After the effects of the champagne wear off, you turn to your first order of business: growing your product development team, so you can make even more great stuff that customers love.
 
 You now have a big question to answer. How much will you grow engineering, and how much will you grow product? For some, this might be when they're hiring their first PM. For others, their twentieth. Then again, perhaps the money would be better spent on getting that hairy codebase in shape for the next big push.
 
@@ -14,7 +14,7 @@ More broadly, over the whole lifetime of your company, you will have to answer t
 If you prefer a video, here's one. Otherwise, read on.
 
 <div class="iframe-wrapper">
-	<iframe width="100%" src="https://www.youtube.com/embed/KNWHNHIJj2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="100%" src="https://www.youtube.com/embed/KNWHNHIJj2s?cc_load_policy=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Magic ratios
