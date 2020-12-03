@@ -31,6 +31,7 @@ function loadWebMentions() {
 }
 
 function displayWebMentions(elem, result) {
+  console.log('webmentions', result);
 
   if (!result.links.length) {
     // No mentions
