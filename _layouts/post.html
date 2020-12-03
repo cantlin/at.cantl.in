@@ -5,7 +5,20 @@ layout: default
 <article class="{{ page.category }}">
   <h1>{{ page.title }}</h1>
   <span class="meta">{{ content | count_words }} words from {{ page.date | date_to_long_string }}</span>
+
+  {% if page.draft %}
+	  <p class="post-notification draft-status">🔒 This is a draft post, please don't share it yet 😇.</p>
+  {% endif %}
+
+  {% if page.archived %}
+	  <p class="post-notification archived-status">💀 This post has been archived, please don't share it.</p>
+  {% endif %}
+
   {{ content }}
 
   <p class="after-text"><a href="/blog/">Valuable Systems</a> is the blog of me, <a href="https://cantl.in/">Cantlin Ashrowan</a>, a product leader based in London. You can email me at <a href="mailto:cantlin@gmail.com">cantlin@gmail.com</a>, or follow me on Twitter <a href="https://twitter.com/cantlin">here.</p>
 </article>
+
+<section class="webmentions">
+	<div id="webmentions"></div>
+</section>
