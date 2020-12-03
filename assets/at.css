@@ -1,6 +1,7 @@
 body {
 	margin:0 auto;
 	max-width:650px;
+	font-size:19px;
 	font-family:Helvetica,Arial,sans-serif,Apple Color Emoji;
 }
 
@@ -151,7 +152,6 @@ a {
 }
 
 p {
-	
 	font-size:19px;
 	line-height:1.4;
 }
@@ -277,6 +277,65 @@ code {
 .after-text {
 	color:#777;
 	font-style:italic;
+}
+
+.webmentions {
+  display: none;
+  padding:20px 20px 8px 20px;
+  background-color:#ffbc4233;
+  border-radius:5px;
+}
+
+.webmentions h2 {
+  font-size: 1.2em;
+  padding: 1px 5px 10px 0;
+  margin: 0;
+}
+
+.webmentions.visible {
+  display: block;
+}
+
+.webmentions ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.webmentions .facepile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.webmentions .facepile img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.webmentions ul.activity li {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+.webmentions h2 {
+	font-size:19px;
+}
+
+.webmentions h3 {
+	font-size:19px;
+	margin:0;
+}
+
+.webmentions .credit {
+	font-size:14px;
+	font-style:italic;
+	color:#555;
+	padding:0;
+	margin:10px 0;
 }
 
 @media screen and (max-width: 900px) {

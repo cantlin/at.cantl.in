@@ -31,7 +31,6 @@ function loadWebMentions() {
 }
 
 function displayWebMentions(elem, result) {
-  console.log('webmentions', result);
 
   if (!result.links.length) {
     // No mentions
@@ -83,15 +82,18 @@ function displayWebMentions(elem, result) {
   var html = '';
 
   if (repostHtml.length) {
-    html += '<div class="facepile"><h2>Reposts:</h2>' + repostHtml.join('\n') + '</div>\n';
+    html += '<h3>Reposts ♻️</h3><div class="facepile">' + repostHtml.join('\n') + '</div>\n';
   }
   if (likeHtml.length) {
-    html += '<div class="facepile"><h2>Likes:</h2>' + likeHtml.join('\n') + '</div>\n';
+    html += '<h3>Likes ❤️</h3><div class="facepile">' + likeHtml.join('\n') + '</div>\n';
   }
   if (activityHtml.length) {
     html += '<ul class="activity">' + activityHtml.join('\n') + '</ul>\n';
   }
 
+  html += '<p class="credit">Powered by <a target="_blank" href="https://webmention.io/">webmention.io</a> and <a target="_blank" href="https://brid.gy/">brid.gy</a>.'
+
+  elem.classList.add('has-mentions');
   elem.innerHTML = html;
   document.getElementsByClassName('webmentions')[0].className = 'webmentions visible';
 
