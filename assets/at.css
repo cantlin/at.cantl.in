@@ -66,6 +66,48 @@ iframe {
 	border:0;
 }
 
+figure {
+	display: flex;
+}
+
+.portrait-medium {
+	width:100%;
+	margin:0 auto;
+}
+
+.portrait-small {
+	width:100%;
+	margin:0 auto;
+}
+
+figure img,
+figure figcaption {
+	width:50%;
+}
+
+figure {
+	flex-direction: row;
+	align-items:center;
+}
+
+figure.column {
+	flex-direction: column;
+	align-items:flex-end;
+}
+
+figure figcaption {
+	padding:0 0 0 5px;
+}
+
+figure.column figcaption {
+	padding:5px 0 0 0;
+}
+
+figure.column img,
+figure figcaption {
+	width:100%;
+}
+
 .masthead-container {
 	display: flex;
 	flex-direction: row;
@@ -84,9 +126,14 @@ iframe {
 }
 
 .masthead-tagline,
-.meta {
+.meta,
+figcaption {
 	color:#777;
 	font-size:14px;
+}
+
+.meta {
+	font-size:16px;
 }
 
 .masthead-tagline {
@@ -128,7 +175,7 @@ p.caption {
 
 .meta {
 	font-style:italic;
-	padding:4px 0 10px 0;
+	padding:4px 0 0 0;
 	display:block;
 }
 
@@ -151,7 +198,7 @@ a {
 	text-decoration:none;
 }
 
-p {
+p, li {
 	font-size:19px;
 	line-height:1.4;
 }
@@ -336,6 +383,43 @@ code {
 	color:#555;
 	padding:0;
 	margin:10px 0;
+}
+
+.comments {
+  padding-bottom: 40px;
+}
+.comments ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comments ul ul {
+  padding-left: 50px;
+  clear: both;
+}
+
+.comment {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px dotted #aaa;
+}
+
+.comment img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.comment p {
+  margin: 0 0 15px 0;
+}
+.comment .author {
+  font-weight: 700;
+}
+.comment time {
+  font-size: 90%;
+  color: #555;
 }
 
 @media screen and (max-width: 900px) {
