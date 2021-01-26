@@ -198,7 +198,7 @@ a {
 	text-decoration:none;
 }
 
-p, li {
+p, article li {
 	font-size:19px;
 	line-height:1.4;
 }

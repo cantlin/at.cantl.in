@@ -2,7 +2,7 @@
 layout: post
 title: Coherent and complex
 image: ""
-description: "The Carpenter's House"
+description: "If there is a central tenet to the idea of a company, it is collaboration. Company comes from the Latin com, meaning &quot;with, together.&quot; They are vehicles for us to make more than we can alone."
 ---
 
 There's nothing more fun than making things, especially together. We've been doing it for 1.6 million years – it's no wonder the experience feels so deeply satisfying.
@@ -35,7 +35,7 @@ Collaboration that creates incoherence is easy. You all just do whatever you wan
 
 Most ways of designing large endeavours, like companies and governments, are at their heart about managing the desire for coherence and the necessity of complexity.
 
-To make things more fun, coherence and complexity are opposed. Say we divide whatever we're doing into many parts, each with a smaller group working on it. The effective complexity everyone has to deal with is much reduced. But the danger that the outputs will not make sense in relation to each other is much increased.
+Like with all the most fun dynamics, these two factors are in opposition. Say we divide whatever we're doing into many parts, each with a smaller group working on it. The effective complexity everyone has to deal with is much reduced. But the danger that the outputs will not make sense in relation to each other is much increased.
 
 On the other hand, lets say that instead we first come up with a clear overarching plan for what we're doing. This makes it much more likely the outcome will be coherent. But the price we pay is having to handle the complexity of the entire challenge all at once.
 
